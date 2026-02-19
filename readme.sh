@@ -8,7 +8,7 @@ git config --global user.email $YOUR_USER_EMAIL
 ssh-keygen -t ed25519
 cat $HOME/.ssh/id_ed25519.pub # Copy & Save to github
 
-git clone git@github.com:smdhnz/dotfiles.git
+git clone git@github.com:smdhnz/.dotfiles.git
 
 cd dotfiles
 cat "$PWD/.bashrc" >> "$HOME/.bashrc"
